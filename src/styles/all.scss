@@ -1,0 +1,15 @@
+@import 'components/variables.scss';
+@import 'components/mixins.scss';
+
+@import 'components/global.scss';
+@import 'components/type.scss';
+@import 'components/btns.scss';
+@import 'components/forms.scss';
+@import 'components/format.scss';
+@import 'components/grid.scss';
+@import 'components/blocks.scss';
+@import 'components/sprite.scss';
+
+.gallery [class*="col-"] {
+    padding: 0;
+}

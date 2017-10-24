@@ -1,0 +1,23 @@
+.i-flex, .i-balance, .i-concentration, .i-weight, .i-health, 
+.i-sleep, .i-blood, .soc-2, .contact2, .contact3, 
+.contact4, .soc-5, .i-bones, .soc-4, .soc-1, 
+.contact1, .soc-3
+{ display: inline-block; background: url('../images/sprite.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
+ 
+.i-flex { background-position: -10px -0px; width: 49px; height: 33px; }
+.i-balance { background-position: -10px -43px; width: 48px; height: 53px; }
+.i-concentration { background-position: -10px -106px; width: 43px; height: 25px; }
+.i-weight { background-position: -10px -141px; width: 40px; height: 40px; }
+.i-health { background-position: -10px -191px; width: 39px; height: 31px; }
+.i-sleep { background-position: -10px -232px; width: 34px; height: 34px; }
+.i-blood { background-position: -10px -276px; width: 28px; height: 36px; }
+.soc-2 { background-position: -10px -322px; width: 25px; height: 21px; }
+.contact2 { background-position: -10px -353px; width: 21px; height: 13px; }
+.contact3 { background-position: -10px -376px; width: 21px; height: 21px; }
+.contact4 { background-position: -10px -407px; width: 21px; height: 21px; }
+.soc-5 { background-position: -10px -438px; width: 21px; height: 21px; }
+.i-bones { background-position: -10px -469px; width: 19px; height: 51px; }
+.soc-4 { background-position: -10px -530px; width: 19px; height: 21px; }
+.soc-1 { background-position: -10px -561px; width: 17px; height: 21px; }
+.contact1 { background-position: -10px -592px; width: 15px; height: 21px; }
+.soc-3 { background-position: -35px -592px; width: 13px; height: 21px; }
