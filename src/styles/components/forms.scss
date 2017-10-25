@@ -62,7 +62,8 @@ $form-label-margin-bottom: 4px !default;
         line-height: $form-line-height;
         $padding-y: ($form-height - ($form-font-size * $form-line-height)) / 2;
         padding: $padding-y $form-padding-x;
-        @include placeholder(#fff);
+        margin-bottom: $form-margin-bottom;
+        @include placeholder($form-color);
     }
     &-label {
         display: block;

@@ -1,0 +1,32 @@
+$body-color: #555555;
+$block-padding: 100px;
+
+$font-size-base: 14px !default;
+$font-family-base: OpenSans, sans-serif;
+
+$color-brand: #5363db;
+$color-inverse: #fff;
+$link-color: $body-color;
+$link-color-hover: $color-brand;
+
+$heading-font-size-1: 48px;
+$heading-margin-1: 40px !default;
+
+$heading-font-size-3: 40px;
+$heading-margin-3: 65px;
+
+
+$form-color: #888888;
+$form-bg: #f2f2f2;
+$form-border: none;
+$form-border-radius: 20px;
+$form-height: 53px;
+$form-padding-x: 12px;
+
+$btn-color: #fff;
+$btn-bg: $color-brand;
+$btn-bg-hover:$btn-bg;
+$btn-color-hover: $btn-color;
+$btn-border-radius: 8px;
+$btn-width: 173px;
+$btn-height: 53px;

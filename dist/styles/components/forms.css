@@ -11,15 +11,16 @@
   border-radius: 2px;
   height: 44px;
   line-height: 1.4;
-  padding: 12.2px 20px; }
+  padding: 12.2px 20px;
+  margin-bottom: 15px; }
   .form-control::-webkit-input-placeholder {
-    color: #fff;
+    color: red;
     opacity: 1; }
   .form-control::-moz-placeholder {
-    color: #fff;
+    color: red;
     opacity: 1; }
   .form-control:-ms-input-placeholder {
-    color: #fff;
+    color: red;
     opacity: 1; }
 
 .form-label {

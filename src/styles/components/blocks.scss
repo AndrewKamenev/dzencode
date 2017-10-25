@@ -1,7 +1,8 @@
 $menu-item-margin: 15px !default;
+$block-padding: 20px !default;
 
 .block {
-	padding: 20px 0;
+	padding: $block-padding 0;
 	background-size: cover;
 	background-position: 50% 50%;
 	display: table;
@@ -42,8 +43,8 @@ $menu-item-margin: 15px !default;
 			right: 0;
 			bottom: 0;
 			z-index: -1;
-			background-color: inherit;
-			opacity: 0.5;
+			background-color: #5b6ceb;
+			// opacity: 0.5;
 		}
 	}
 }

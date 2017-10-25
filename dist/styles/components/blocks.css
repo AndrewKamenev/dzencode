@@ -33,8 +33,7 @@
       right: 0;
       bottom: 0;
       z-index: -1;
-      background-color: inherit;
-      opacity: 0.5; }
+      background-color: #5b6ceb; }
 
 .ul-menu {
   list-style: none;

@@ -11,8 +11,15 @@
   background: #ddd;
   border: 1px solid #ddd;
   border-radius: 4px;
-  padding: 10px 20px; }
+  padding: 10px 20px;
+  width: auto;
+  height: auto; }
   .btn:hover {
     color: #333;
     background: #ddd;
     border-color: #ddd; }
+
+.btn-lg {
+  font-size: 18px;
+  padding: 12px;
+  border-radius: 20px; }

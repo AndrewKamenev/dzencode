@@ -4,6 +4,8 @@ $btn-bg: #ddd !default;
 $btn-border: 1px solid $btn-bg !default;
 $btn-border-radius: 4px !default;
 $btn-padding: 10px 20px !default;
+$btn-width: auto !default;
+$btn-height: auto !default;
 
 $btn-color-hover:  #333 !default;
 $btn-bg-hover: #ddd !default;
@@ -44,6 +46,8 @@ $btn-border-color-hover: $btn-bg !default;
     border: $btn-border;
     border-radius: $btn-border-radius;
     padding: $btn-padding;
+    width: $btn-width;
+    height: $btn-height;
 
     &:hover {
         color: $btn-color-hover;
@@ -61,6 +65,6 @@ $btn-border-color-hover: $btn-bg !default;
 // .btn-md {
 // 	@include btn-size();
 // }
-// .btn-lg {
-// 	@include btn-size();
-// }
+.btn-lg {
+	@include btn-size(18px, 12px, 20px);
+}
