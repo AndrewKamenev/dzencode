@@ -1,0 +1,177 @@
+@media all and (max-width: 1100px) {
+	
+	.form-group {
+		margin-left: 150px;
+	}
+}
+@media all and (max-width: 980px) {
+	.container {
+		padding: 0 20px;
+	}
+	.form-group {
+		margin-left: 0;
+	}
+	.header-menu .logo {
+	    margin: 0px 70px 0px 25px;
+	}
+	.btn-lg {
+		width: 100%;
+	}
+}
+@media all and (max-width: 825px) {
+	
+	h1 {
+		padding-top: 0;
+	}
+	.slider-reviews {
+		&-author {
+			left: 35%;
+			width: 70%;
+		}
+		.owl-nav {
+			left: 25%;
+			width: 50%;
+		}
+	}
+}
+@media all and (max-width: 768px) {
+	.header-menu {
+		display: none;
+	}
+	.main {
+		padding-top: 90px;
+	}
+	.header .logo-mobile {
+		display: block;
+		margin-left: 50px;
+		margin-top: 15px;
+	}
+	.mobile {
+		display: block;
+		margin: 20px 10px;
+		width: 50px;
+		height: 50px;
+		float: right;
+		cursor: pointer;
+		span {
+			height: 8px;
+			width: 50px;
+			margin-bottom: 8px;
+			display: inline-block;
+			background-color: $color-brand;
+		}
+	}
+
+	.mobile-close {
+		width: 50px;
+		height: 50px;
+		position: relative;
+		float: right;
+		cursor: pointer;
+		&:before, &:after {
+			content: "";
+			display: inline-block;
+			width: 50px;
+			height: 8px;
+			position: absolute;
+			top: 30px;
+			transform: rotate(45deg);
+			background: $color-brand;
+		}
+		&:after {
+			transform: rotate(-45deg);
+		}
+	}
+		.collapse {
+		display: none;
+		width: 100%;
+		.ul-menu {
+			width: 100%;
+			clear: both;
+			display: block;
+			background: $color-brand;
+			li {
+				display: block;
+				text-align: center;
+
+				a {
+					font-size: 30px;
+					line-height: 1.5em;
+					color: #fff;
+				}
+			}
+		}
+	}
+	.block {
+		padding: 30px 0;
+	}
+	.form-group {
+			float: none;
+			margin-bottom: 50px;
+			width: 70%;
+			margin: 0 auto;
+		}
+		h1, h3 {
+			text-align: center;
+		}
+		#btnTryIt {
+			float: none !important;
+		}
+		.feature-image img {
+			width: 100%;
+		}
+	.slider-reviews {
+		&-text {
+			width: 100%;
+		}
+		&-author {
+			left: 35%;
+			width: 50%;
+		}	
+	}
+	.social {
+		text-align: center;
+	}
+	.price-box {
+		&-header {
+			background: $color-brand;
+			padding: 20px 0;
+			color: $color-inverse;
+			font-weight: bold;
+			
+		}
+		&-content {
+			padding: 20px;
+			p {
+				
+				margin-bottom: 20px;
+			}
+		}
+	}
+}
+@media all and (max-width: 500px) {
+	.feature {
+		height: auto;
+		padding: 0;
+		&-image {
+			width: 100%;
+			float: none;
+		}
+		&-desc, &-title, &-sig {
+			padding: 10px 20px;
+		}
+		&-title {
+			margin-bottom: 0;
+		}
+	}
+	.slider-reviews {
+		&-author {
+			width: auto;
+			left: 50px;
+			}
+		.owl-nav {
+			left: 5%;
+			width: 90%;
+		}
+	}
+}

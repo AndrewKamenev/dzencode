@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<title>Yoga</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css" />
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700" rel="stylesheet">
@@ -11,6 +12,35 @@
 <body>
 	<div class="wrapper">
 		<header class="header">
+		<div class="mobile-close"></div>
+				<div class="mobile">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<div class="logo-mobile"><a href="#"><img src="src/images/logo.png" alt=""></a></div>
+				<div class="collapse">
+					<ul class="ul-menu">
+						<li class="active">
+							<a href="#about">About us</a>
+						</li>
+						<li>
+							<a href="#reserve">Reservation</a>
+						</li>
+						<li>
+							<a href="#gallery">Gallery</a>
+						</li>
+						<li>
+							<a href="#">Blog</a>
+						</li>
+						<li>
+							<a href="#">Elements</a>
+						</li>
+						<li>
+							<a href="#">Shop</a>
+						</li>
+					</ul>
+				</div>
 			<ul class="header-menu">
 				<li class="header-menu-item"><a href="#about">About us</a></li>
 				<li class="header-menu-item"><a href="#reserve">Reservation</a></li>
@@ -22,31 +52,27 @@
 			</ul>
 		</header>
 		<div class="main">
-			<div class="block block-overlay block-inverse" style="background: url('dist/images/background.png');">
-				<div class="block-content">
-					<div class="block-inner">
-						<div class="container">
-							<div class="form-group">
-								<p>Trial Class</p>
-								<form id="formMain" action="">
-									<input type="text" id="inputName" class="form-control" placeholder="Enter your name">
-									<input type="text" id="inputPhone" class="form-control" placeholder="Enter your phone">
-									<select id='inputClass' type="text" class="form-control">
-										<option value="1">Enter your class</option>
-										<option value="2">Yoga For Health</option>
-										<option value="3">Yoga For Lose Weight</option>
-										<option value="3">Yoga For Children</option>
-										<option value="3">Yoga For Elderly</option>
-									</select>
-									<button id='btnTryIt' class="btn right">Try it</button>
-								</form>
-							</div>
-							<h1>Just Balance
-							 <br>your Mind & Body </h1>
-							<h3>Create the healthy living
-							<br>for yourself</h3>
-						</div>
+			<div class="block block-overlay block-inverse" style="background: url('dist/images/background.png')">
+				<div class="container">
+					<div class="form-group">
+						<p>Trial Class</p>
+						<form id="formMain" action="">
+							<input type="text" id="inputName" class="form-control" placeholder="Enter your name">
+							<input type="text" id="inputPhone" class="form-control" placeholder="Enter your phone">
+							<select id='inputClass' type="text" class="form-control">
+								<option value="1">Chose your class</option>
+								<option value="2">Yoga For Health</option>
+								<option value="3">Yoga For Lose Weight</option>
+								<option value="3">Yoga For Children</option>
+								<option value="3">Yoga For Elderly</option>
+							</select>
+							<button id='btnTryIt' class="btn right">Try it</button>
+						</form>
 					</div>
+					<h1>Just Balance
+					 <br>your Mind & Body </h1>
+					<h3>Create the healthy living
+					<br>for yourself</h3>
 				</div>
 			</div>
 			<div class="block">
@@ -218,7 +244,7 @@
 									<p class="line-bottom">ENTRY DATE: MON – FRI</p>
 									<p class="line-bottom">ENTRY TIME: 8A.M – 8P.M</p>
 									<p>NUTRITION ADVICER: NO</p>
-									<button class="btn btn-lg">Buy now</button>
+									<button class="btn btn-lg btnBuy">Buy now</button>
 								</div>
 							</div>
 						</div>
@@ -233,7 +259,7 @@
 									<p class="line-bottom">ENTRY DATE: MON – FRI</p>
 									<p class="line-bottom">ENTRY TIME: 8A.M – 8P.M</p>
 									<p>NUTRITION ADVICER: yes</p>
-									<button class="btn btn-lg">Buy now</button>
+									<button class="btn btn-lg btnBuy">Buy now</button>
 								</div>
 							</div>
 						</div>
@@ -248,7 +274,7 @@
 									<p class="line-bottom">ENTRY DATE: MON – SUN</p>
 									<p class="line-bottom">ENTRY TIME: 8A.M – 8P.M</p>
 									<p>NUTRITION ADVICER: YES</p>
-									<button class="btn btn-lg">Buy now</button>
+									<button class="btn btn-lg btnBuy">Buy now</button>
 								</div>
 							</div>
 						</div>
@@ -258,16 +284,65 @@
 			<div class="block">
 				<div class="container">
 					<div id="sliderReviews" class="owl-carousel slider-reviews">
-						<div class="slider-reviews-item">
-							<div class="slider-reviews-img"><img src="dist/images/girl1.png" alt=""></div>
-							<div class="slider-reviews-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation toui ullamcomi laboris nisi ut aliquip ex ea commodo consequat.
-							<div class="slider-reviews-sig">Trainer<br><span class="name">Laura Shepard</span></div></div>
-							
+						<div class="slider-reviews-wrapper">
+							<div class="slider-reviews-item">
+								<div class="slider-reviews-img"><img src="dist/images/girl1.png" alt=""></div>
+								<div class="slider-reviews-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation toui ullamcomi laboris nisi ut aliquip ex ea commodo consequat.
+								<div class="slider-reviews-sig">Trainer<br><span class="name">Laura Shepard</span></div></div>
+								<div class="slider-reviews-author">
+									<div class="slider-reviews-author-img">
+										<img src="dist/images/girl2.png" alt="">
+									</div>
+									<div class="slider-reviews-author-sig">
+											<span>Sara Taylor</span><br>Trainer
+										</div>
+								</div>
+							</div>
 						</div>
-						<div class="slider-reviews-item">
-							<div class="slider-reviews-img"></div>
-							<div class="slider-reviews-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation toui ullamcomi laboris nisi ut aliquip ex ea commodo consequat.</div>
-							<div class="slider-reviews-sig">Trainer <br><strong>Laura Shepard</strong></div>
+						<div class="slider-reviews-wrapper">
+							<div class="slider-reviews-item">
+								<div class="slider-reviews-img"><img src="dist/images/girl1.png" alt=""></div>
+								<div class="slider-reviews-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation toui ullamcomi laboris nisi ut aliquip ex ea commodo consequat.
+								<div class="slider-reviews-sig">Trainer<br><span class="name">Laura Shepard</span></div></div>
+								<div class="slider-reviews-author">
+									<div class="slider-reviews-author-img">
+										<img src="dist/images/girl2.png" alt="">
+									</div>
+									<div class="slider-reviews-author-sig">
+											<span>Sara Taylor</span><br>Trainer
+										</div>
+								</div>
+							</div>
+						</div>
+						<div class="slider-reviews-wrapper">
+							<div class="slider-reviews-item">
+								<div class="slider-reviews-img"><img src="dist/images/girl1.png" alt=""></div>
+								<div class="slider-reviews-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation toui ullamcomi laboris nisi ut aliquip ex ea commodo consequat.
+								<div class="slider-reviews-sig">Trainer<br><span class="name">Laura Shepard</span></div></div>
+								<div class="slider-reviews-author">
+									<div class="slider-reviews-author-img">
+										<img src="dist/images/girl2.png" alt="">
+									</div>
+									<div class="slider-reviews-author-sig">
+											<span>Sara Taylor</span><br>Trainer
+										</div>
+								</div>
+							</div>
+						</div>
+						<div class="slider-reviews-wrapper">
+							<div class="slider-reviews-item">
+								<div class="slider-reviews-img"><img src="dist/images/girl1.png" alt=""></div>
+								<div class="slider-reviews-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation toui ullamcomi laboris nisi ut aliquip ex ea commodo consequat.
+								<div class="slider-reviews-sig">Trainer<br><span class="name">Laura Shepard</span></div></div>
+								<div class="slider-reviews-author">
+									<div class="slider-reviews-author-img">
+										<img src="dist/images/girl2.png" alt="">
+									</div>
+									<div class="slider-reviews-author-sig">
+											<span>Sara Taylor</span><br>Trainer
+										</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>

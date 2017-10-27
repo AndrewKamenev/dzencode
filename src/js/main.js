@@ -41,6 +41,8 @@ function validateForm()
 	    	navText: ['<i class="fa fa-chevron-left" aria-hidden="true"></i>','<i class="fa fa-chevron-right" aria-hidden="true"></i>'],
 	    	dots: false,
 	        loop: true,
+	        responsiveClass: true
+	    
 	    });
 	    $("#sliderReviews").owlCarousel({
 	    	items: 1,
@@ -48,8 +50,32 @@ function validateForm()
 	    	nav: true,
 	    	navText: ['<i class="fa fa-chevron-left" aria-hidden="true"></i>','<i class="fa fa-chevron-right" aria-hidden="true"></i>'],
 	    	dots: true,
-	        loop: true,
+	        loop: true
 	    });
+	    $('.btnBuy').hover(function(){
+	    	$(this).parent().siblings('.price-box-header').addClass('highlight-bg');
+	    	$(this).addClass('highlight-bg');
+	    }, 
+	    	function(){
+	    		$(this).parent().siblings('.price-box-header').removeClass('highlight-bg');
+	    		$(this).removeClass('highlight-bg');
+	    	});
+	    //mobile buttons
+  $( ".mobile-close" ).hide();
+		$( ".mobile" ).click(function() {
+			$( ".collapse" ).slideToggle( "slow", function() {
+			$( ".mobile" ).hide();
+			$( ".mobile-close" ).show();
+		});
+});
+
+$( ".mobile-close" ).click(function() {
+	$( ".collapse" ).slideToggle( "slow", function() {
+		$( ".mobile-close" ).hide();
+		$( ".mobile" ).show();
+	});
+});
+
 
 
 	    // script for smooth scrolling
